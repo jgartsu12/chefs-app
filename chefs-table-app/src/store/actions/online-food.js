@@ -8,7 +8,7 @@ import {
 
 export function filterFoodWithQuery(fields) {
     return ({
-        type: FILTER_PRODUCTS_WITH_QUERY,
+        type: FILTER_FOOD_WITH_QUERY,
         payload: fields
     })
 }
