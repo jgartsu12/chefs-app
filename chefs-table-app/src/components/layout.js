@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Header from './headernavbar/header';
 import Navbar from './headernavbar/navbar';
+import Footer from './headernavbar/footer';
 
 class Layout extends Component {
     render() {
@@ -10,6 +11,7 @@ class Layout extends Component {
                 {this.props.children}
                 <Header />
                 <Navbar />
+                <Footer />
             </div>
         );
     }
