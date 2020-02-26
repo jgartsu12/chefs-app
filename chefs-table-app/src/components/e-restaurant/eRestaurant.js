@@ -5,7 +5,7 @@ import * as actions from '../../store/actions';
 import eRestaurantSearchBar from './eRestaurantSearchBar';
 import eFood from './eFood';
 import eOrder from './eOrder';
-import orderedFoodButton from './orderedFoodButton';
+import eBagButton from './eBagButton';
 
 class eRestaurant extends Component {
     constructor() {

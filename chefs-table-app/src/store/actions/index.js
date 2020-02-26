@@ -13,10 +13,10 @@ import {
 } from './user';
 
 import {
-    fetchShopCategories,
-    fetchShopProducts,
-    filterProductsWithCategoryId,
-    filterProductsWithQuery
+    fetchFoodCategories,
+    fetchFood,
+    filterFoodWithCategoryId,
+    filterFoodWithQuery
 } from './shop';
 
 export {
@@ -30,9 +30,9 @@ export {
     addCartProduct,
     signIn,
 
-    fetchShopCategories,
-    fetchShopProducts,
-    filterProductsWithCategoryId,
+    fetchFoodCategories,
+    fetchFood,
+    filterFoodWithCategoryId,
 
-    filterProductsWithQuery
+    filterFoodWithQuery
 };

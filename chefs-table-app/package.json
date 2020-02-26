@@ -28,9 +28,9 @@
   "author": "John Gartsu",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
+    "url": "https://github.com/jgartsu12/chefs-app"
   },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "https://github.com/jgartsu12/chefs-app",
   "dependencies": {
     "ajv": "^5.5.2",
     "autoprefixer": "^9.1.0",
