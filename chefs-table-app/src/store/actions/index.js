@@ -5,10 +5,10 @@ import {
 } from './headernavbar';
 
 import {
-    fetchUserPurchases,
-    setPurchaseDetail,
-    fetchCartProducts,
-    addCartProduct,
+    fetchUserOrders,
+    setOrderDetail,
+    fetchBaggedFoods,
+    addBaggedFood,
     signIn
 } from './user';
 
@@ -24,10 +24,10 @@ export {
     setNavbarLinks,
     changeNavbarActive,
 
-    fetchUserPurchases,
-    setPurchaseDetail,
-    fetchCartProducts,
-    addCartProduct,
+    fetchUserOrders,
+    setOrderDetail,
+    fetchBaggedFoods,
+    addBaggedFood,
     signIn,
 
     fetchFoodCategories,

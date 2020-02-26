@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import BaggedFood from './orderedFood';
+import BaggedFood from './BaggedFood';
 import * as actions from '../../store/actions';
 import eBagButton from './eBagButton';
 import history from '../../history';
