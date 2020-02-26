@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import * as actions from '../store/actions';
-import PageTitle from '../components/pageTitle';
+import * as actions from '../../store/actions';
+import PageTitle from '../pageTitle';
 import EmailForm from './emailForm';
 
 class Email extends Component {

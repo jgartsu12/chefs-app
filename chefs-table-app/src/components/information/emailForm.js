@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { reduxForm, Field } from 'redux-form';
 
-import { FormInput, FormButton } from '../components/formFields';
-import history from '../history';
+import { FormInput, FormButton } from '../formFields';
+import history from '../../history';
 import OrderSummary from './orderSummary';
 
 class EmailForm extends Component {

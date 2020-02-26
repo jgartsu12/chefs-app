@@ -26,3 +26,41 @@ body {
     display: grid;
     justify-items: center;
 }
+
+@import 'layout';
+@import 'headernavbar';
+@import 'page-title';
+@import 'form-fields';
+@import 'details';
+
+// AUTH 
+@import 'auth/signin';
+@import 'auth/signup';
+
+// ACCOUNT
+@import 'account/account';
+@import 'account/purchase-history';
+@import 'account/account-information';
+
+// SHOP
+@import 'shop/shop';
+@import 'shop/shop-search-bar';
+@import 'shop/shop-product';
+
+// CART
+@import 'shop/shop-cart';
+@import 'shop/cart-product';
+
+// QUANTITY
+@import 'quantity';
+@import 'green-price-tag';
+
+// REVIEW
+@import 'order/review';
+@import 'order/reviewForm';
+@import 'order/reviewProduct';
+
+// INFORMATION
+@import 'information/payment';
+@import 'information/shipping';
+@import 'information/infoHelp';
