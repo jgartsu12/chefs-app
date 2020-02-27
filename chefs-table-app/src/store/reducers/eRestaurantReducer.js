@@ -25,7 +25,7 @@ export default function(state= INITIAL_STATE, action) {
                 foods: action.payload
             }
         case FILTER_FOOD_WITH_CATEGORY_ID:
-            let filteredFoods = [];
+            var filteredFoods = [];
             state.foods.map(food => {
                 if(food.belongsTo.includes(action.payload)) {
                     filteredFoods.push(food);

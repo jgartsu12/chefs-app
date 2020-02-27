@@ -38,29 +38,29 @@ body {
 @import 'auth/signup';
 
 // ACCOUNT
-@import 'account/account';
-@import 'account/purchase-history';
-@import 'account/account-information';
+@import 'account/acct';
+@import 'account/order-history';
+@import 'account/acct-info';
 
-// SHOP
-@import 'shop/shop';
-@import 'shop/shop-search-bar';
-@import 'shop/shop-product';
+// e-rest
+@import 'e-restaurant/e-restaurant';
+@import 'e-restaurant/e-restaurant-search-bar';
+@import 'e-restaurant/e-food';
 
-// CART
-@import 'shop/shop-cart';
-@import 'shop/cart-product';
+// e-bag
+@import 'e-restaurant/e-bag';
+@import 'e-restaurant/e-food';
 
 // QUANTITY
-@import 'quantity';
-@import 'green-price-tag';
+@import 'amount';
+@import 'chefs-green-price-tag';
 
 // REVIEW
 @import 'order/review';
-@import 'order/reviewForm';
-@import 'order/reviewProduct';
+@import 'order/review-food-form';
+@import 'order/review-food';
 
 // INFORMATION
-@import 'information/payment';
-@import 'information/shipping';
-@import 'information/infoHelp';
+@import 'info/pay';
+@import 'info/email';
+@import 'info/info-help';
