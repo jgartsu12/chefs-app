@@ -4,10 +4,11 @@ import { connect } from 'react-redux';
 import * as actions from '../../store/actions';
 import eRestaurantSearchBar from './eRestaurantSearchBar';
 import eFood from './eFood';
-import eOrder from './eOrder';
+import eBag from './eBag';
 import eBagButton from './eBagButton';
 
 class eRestaurant extends Component {
+    
     constructor() {
         super()
 

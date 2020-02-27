@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
 import AccountInformation from './accountInformation';
-import PurchaseHistory from './orderHistory';
+import OrderHistory from './orderHistory';
 
 class Account extends Component {
 
@@ -14,7 +14,7 @@ class Account extends Component {
             {
                 _id: 0,
                 title: 'Online Food Order',
-                path: '/online_food_order'
+                path: '/'
             },
             {
                 _id: 1,

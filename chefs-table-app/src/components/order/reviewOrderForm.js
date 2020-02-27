@@ -3,7 +3,7 @@ import { reduxForm, Field } from 'redux-form';
 
 import history from '../../history';
 import { FormButton } from '../formFields';
-import ReviewFoodOrder from './reviewFoodOrder';
+import ReviewLotsFoods from './reviewLotsFoods';
 
 class ReviewOrderForm extends Component {
     render() {
@@ -17,7 +17,7 @@ class ReviewOrderForm extends Component {
                     <div className='review-order-form__legend__price'>Price</div>
                 </div>
 
-                <ReviewFoodOrder className='review-food-order__food'/>
+                <ReviewLotsFoods className='review-lots-foods__food'/>
                 <div className='review-order-form__line'></div>
 
                 <Field className='review-order-form__proceed'

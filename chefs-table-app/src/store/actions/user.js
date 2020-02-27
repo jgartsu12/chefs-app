@@ -68,7 +68,7 @@ export function fetchBaggedFoods() {
 
 export function fetchUserOrders() {
     return ({
-        type: SET_USER_ORDERS
+        type: SET_USER_ORDERS,
         payload: [
             {
                  _id: 0,

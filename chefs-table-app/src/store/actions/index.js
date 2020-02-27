@@ -17,7 +17,7 @@ import {
     fetchFood,
     filterFoodWithCategoryId,
     filterFoodWithQuery
-} from './shop';
+} from './e-restaurant';
 
 export {
     setHeaderLinks,

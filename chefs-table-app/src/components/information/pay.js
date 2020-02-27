@@ -6,6 +6,7 @@ import * as actions from '../store/actions';
 import PayForm from './payForm';
 
 class Pay extends Component {
+    
     componentDidMount() {
         this.props.setHeaderLinks([]);
         this.props.setNavbarLinks([]);

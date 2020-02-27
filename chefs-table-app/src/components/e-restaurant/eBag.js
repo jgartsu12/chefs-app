@@ -74,6 +74,6 @@ function mapStateToProps(state) {
     }
 }
 
-BaggedFood = connect(mapStateToProps, actions)(BaggedFood);
+eBag = connect(mapStateToProps, actions)(eBag);
 
 export default eBag;

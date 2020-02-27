@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import amount from '../amount';
+import Amount from '../amount';
 import ChefsGreenPriceTag from '../chefs-greenPriceTag';
 
 class OrderedFood extends Component {

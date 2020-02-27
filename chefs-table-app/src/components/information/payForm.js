@@ -3,7 +3,7 @@ import { reduxForm, Field } from 'redux-form';
 import { connect } from 'react-redux';
 
 import { FormInput, FormButton } from '../components/formFields';
-import history from '../history';
+import history from '../../history'
 import OrderSummary from './orderSummary';
 import { UnderlinedTitle } from './infoHelp';
 

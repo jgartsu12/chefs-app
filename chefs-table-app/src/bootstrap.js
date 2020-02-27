@@ -4,20 +4,19 @@ import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import { Router, Switch, Route } from "react-router-dom";
 
-import reducers from "./store/reducers";
-
 const createStoreWithMiddleware = applyMiddleware()(compose((window.devToolsExtension ? window.devToolsExtension() : f => f)(createStore)));
 
+import reducers from "./store/reducers";
 import "./style/main.scss";
-import Layout from './components/layout'
+import Layout from './components/layout';
 import history from './history';
 import Signin from './components/auth/signin';
 import Signup from './components/auth/signup';
 import Account from './components/account/account';
-import e-Restaurant from './components/e-restaurant';
-import Review from './components/order/review';
-import Shipping from './components/information/shipping';
-import Payment from './components/information/payment';
+import eRestaurant from './components/e-restaurant/eRestaurant';
+import ReviewFood from './components/order/reviewFood';
+import Email from './components/information/email';
+import Pay from './components/information/pay';
 
 function main() {
   ReactDOM.render(
@@ -31,8 +30,8 @@ function main() {
 
               <Route path='/account' exact component={Account}/>
 
-              <Route path='/e-restaurant' exact component={e-Restaurant}/>
-              <Route path='/order/review' exact component={Review}/>
+              <Route path='/e-restaurant' exact component={eRestaurant}/>
+              <Route path='/order/review' exact component={ReviewFood}/>
 
               <Route path='/information/email' exact component={Email}/>
               <Route path='/information/pay' exact component={Pay}/>
