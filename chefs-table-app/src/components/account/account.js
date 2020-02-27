@@ -13,8 +13,8 @@ class Account extends Component {
         const headerLinks = [
             {
                 _id: 0,
-                title: 'Online Food Order',
-                path: '/'
+                title: 'e-Restaurant',
+                path: '/e-restaurant'
             },
             {
                 _id: 1,

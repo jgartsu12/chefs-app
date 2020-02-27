@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import SocialMedia from '../../social-media-links'
+import SocialMedia from '../../components/social-media-links';
 
 class Footer extends Component {
     render() {
